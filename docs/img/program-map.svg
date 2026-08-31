@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="520" viewBox="0 0 1260 520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1260" height="520" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="40" y="44" font-size="22" font-weight="600" fill="#1f2937">AI-assisted development: team onboarding programme</text>
+  <text x="40" y="70" font-size="14" fill="#6b7280">Four modules, one capstone. Each module builds on one part of ai-dev-playbook.</text>
+
+  <!-- module boxes -->
+  <g font-size="14">
+    <!-- M1 -->
+    <rect x="40" y="110" width="250" height="150" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="56" y="136" font-size="12" fill="#4f46e5" font-weight="600">MODULE 1 · 90 MIN</text>
+    <text x="56" y="162" font-size="15" font-weight="600" fill="#1f2937">The loop and the spec</text>
+    <text x="56" y="190" fill="#374151">Write a spec a second person</text>
+    <text x="56" y="208" fill="#374151">could turn into tests.</text>
+    <text x="56" y="240" font-size="12" fill="#6b7280">Activity: the gap hunt</text>
+
+    <!-- M2 -->
+    <rect x="310" y="110" width="250" height="150" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="326" y="136" font-size="12" fill="#4f46e5" font-weight="600">MODULE 2 · 90 MIN</text>
+    <text x="326" y="162" font-size="15" font-weight="600" fill="#1f2937">Generating with discipline</text>
+    <text x="326" y="190" fill="#374151">Curate context, plan first,</text>
+    <text x="326" y="208" fill="#374151">know when to restart.</text>
+    <text x="326" y="240" font-size="12" fill="#6b7280">Activity: catch the drift</text>
+
+    <!-- M3 -->
+    <rect x="580" y="110" width="250" height="150" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="596" y="136" font-size="12" fill="#4f46e5" font-weight="600">MODULE 3 · 120 MIN</text>
+    <text x="596" y="162" font-size="15" font-weight="600" fill="#1f2937">Reviewing AI-written code</text>
+    <text x="596" y="190" fill="#374151">Run the checklist and find</text>
+    <text x="596" y="208" fill="#374151">the planted failure modes.</text>
+    <text x="596" y="240" font-size="12" fill="#6b7280">Activity: the seeded diff</text>
+
+    <!-- M4 -->
+    <rect x="850" y="110" width="250" height="150" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="866" y="136" font-size="12" fill="#4f46e5" font-weight="600">MODULE 4 · 90 MIN</text>
+    <text x="866" y="162" font-size="15" font-weight="600" fill="#1f2937">Data rules, and tests</text>
+    <text x="866" y="180" font-size="15" font-weight="600" fill="#1f2937">that can fail</text>
+    <text x="866" y="208" fill="#374151">What never gets pasted; break a</text>
+    <text x="866" y="226" fill="#374151">behaviour and watch the suite.</text>
+    <text x="866" y="250" font-size="12" fill="#6b7280">Activities: paste sort, break it</text>
+  </g>
+
+  <!-- arrows between modules -->
+  <g stroke="#9ca3af" stroke-width="2" fill="#9ca3af">
+    <line x1="290" y1="185" x2="300" y2="185"/><polygon points="300,180 308,185 300,190"/>
+    <line x1="560" y1="185" x2="570" y2="185"/><polygon points="570,180 578,185 570,190"/>
+    <line x1="830" y1="185" x2="840" y2="185"/><polygon points="840,180 848,185 840,190"/>
+  </g>
+
+  <!-- capstone -->
+  <rect x="1122" y="110" width="100" height="150" rx="10" fill="#4f46e5"/>
+  <text x="1172" y="170" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Capstone</text>
+  <text x="1172" y="192" font-size="11" fill="#e0e7ff" text-anchor="middle">one real task,</text>
+  <text x="1172" y="207" font-size="11" fill="#e0e7ff" text-anchor="middle">whole loop,</text>
+  <text x="1172" y="222" font-size="11" fill="#e0e7ff" text-anchor="middle">rubric-graded</text>
+  <g stroke="#9ca3af" stroke-width="2" fill="#9ca3af">
+    <line x1="1100" y1="185" x2="1110" y2="185"/><polygon points="1110,180 1118,185 1110,190"/>
+  </g>
+
+  <!-- playbook layer -->
+  <text x="40" y="310" font-size="12" fill="#6b7280" font-weight="600">BUILT ON ai-dev-playbook</text>
+  <g font-size="13" fill="#374151">
+    <rect x="40" y="322" width="250" height="70" rx="8" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="56" y="346">Guide 1 · The workflow</text>
+    <text x="56" y="366">templates/task-spec.md</text>
+
+    <rect x="310" y="322" width="250" height="70" rx="8" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="326" y="346">Guide 1 §2 · Generate</text>
+    <text x="326" y="366">prompt templates (4)</text>
+
+    <rect x="580" y="322" width="250" height="70" rx="8" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="596" y="346">Guide 2 · Reviewing AI code</text>
+    <text x="596" y="366">ai-code-review-checklist.md</text>
+
+    <rect x="850" y="322" width="250" height="70" rx="8" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="866" y="346">Guides 3 and 4</text>
+    <text x="866" y="366">team-working-agreement.md</text>
+  </g>
+  <g stroke="#d1d5db" stroke-width="2" stroke-dasharray="4 4">
+    <line x1="165" y1="322" x2="165" y2="262"/>
+    <line x1="435" y1="322" x2="435" y2="262"/>
+    <line x1="705" y1="322" x2="705" y2="262"/>
+    <line x1="975" y1="322" x2="975" y2="262"/>
+  </g>
+
+  <!-- objectives strip -->
+  <text x="40" y="436" font-size="12" fill="#6b7280" font-weight="600">LEARNING OBJECTIVES, ONE PER MODULE, ALL ASSESSED IN THE CAPSTONE</text>
+  <g font-size="13" fill="#374151">
+    <text x="40" y="462">1 · Write a testable spec</text>
+    <text x="310" y="462">2 · Generate with curated context; restart on drift</text>
+    <text x="760" y="462">3 · Find the failure modes in a diff</text>
+    <text x="40" y="486">4 · Decide what may be pasted, and at which tier</text>
+    <text x="440" y="486">5 · Prove a test can fail by breaking the behaviour</text>
+  </g>
+</svg>
