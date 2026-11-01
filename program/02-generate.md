@@ -30,7 +30,7 @@ It has the least new content of the four modules, so most of the session is prac
 
 Individually, 30 minutes, on the participant's own machine with their own approved tool (see module 4 on what "approved" means; for this session the facilitator confirms the tool tier in advance).
 
-1. Take the revised spec from module 1. Choose the files the model needs: the ones it will change and the interfaces it must call. Write the list down before opening the tool. Aim for three to eight.
+1. Take the revised spec from module 1. Choose the files the model needs: the ones it will change and the interfaces it must call. Write the list down before opening the tool. Aim for three to eight. If the tool is an agent that picks its own files, still write the list; after the run, compare it with what the agent actually read and changed, and bring the difference to the debrief.
 2. Start a fresh session. Use the implement-from-spec template and ask for the plan only.
 3. Check the plan against the spec's file list and out-of-scope section. If the plan touches anything outside, correct the plan before implementation starts.
 4. Let it implement. While it runs, keep a two-column log: things the output did that the spec asked for, and things it did that the spec didn't.

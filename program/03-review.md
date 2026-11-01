@@ -6,7 +6,7 @@
 
 ## Pre-reading
 
-- [Playbook guide 2: Reviewing AI-generated code](https://github.com/omarmaali/ai-dev-playbook/blob/main/docs/02-reviewing-ai-code.md), the whole guide. Participants should be able to name the seven failure modes from memory by the session; the activity assumes it.
+- [Playbook guide 2: Reviewing AI-generated code](https://github.com/omarmaali/ai-dev-playbook/blob/main/docs/02-reviewing-ai-code.md), the whole guide. Participants should be able to name the eight failure modes from memory by the session; the activity assumes it.
 - [The AI code review checklist](https://github.com/omarmaali/ai-dev-playbook/blob/main/templates/ai-code-review-checklist.md). Print it or have it open in a second window during the activity.
 - [The review-a-diff prompt](https://github.com/omarmaali/ai-dev-playbook/blob/main/templates/review-a-diff.md), used in the last part of the activity.
 
@@ -18,7 +18,7 @@ Review is the skill that transfers least from ordinary code review. Guide 2's ar
 
 | Time | Segment |
 |---|---|
-| 0:00 | Why it's a different job. Ten minutes, guide 2's argument, then the seven failure modes, named by participants from the pre-reading. |
+| 0:00 | Why it's a different job. Ten minutes, guide 2's argument, then the eight failure modes, named by participants from the pre-reading. |
 | 0:15 | Running the pass in order: spec first, surprises second, correctness, trust boundaries, tests last. Why the order matters when attention runs out before the code does. |
 | 0:30 | Activity part A: solo review of the seeded diff. |
 | 1:00 | Activity part B: pair calibration. |
@@ -49,7 +49,7 @@ Also watch for the informal higher bar guide 4 warns about: participants nitpick
 ## Knowledge check
 
 1. Guide 2 says surface quality carries information when reviewing a colleague and doesn't when reviewing a model. What information, and why does it disappear?
-2. Name the seven failure modes. For any two, describe the check that finds them.
+2. Name the eight failure modes. For any two, describe the check that finds them.
 3. The review pass starts from the spec rather than from the diff. Which failure mode does that catch, and why does starting from the diff miss it?
 4. A diff has two of the failure modes in its first two checklist sections. What does guide 2 recommend, and what's the reasoning about cost?
 5. Why should a model used as a second reviewer run in a fresh session rather than the one that generated the code?

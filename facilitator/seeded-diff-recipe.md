@@ -32,6 +32,7 @@ Then plant the rest by hand. A spread to aim for, adjusted to the team's level:
 | Over-engineering | A config option nothing reads, or an abstraction with one caller. |
 | Test that can't fail | A test that configures a mock to return X and asserts X. Or a test of the rate limit that sets the limit to a large number in setup. |
 | Trust boundary | A string-built query, or a secret as a default value in config. |
+| Test edited to pass | Change an existing test's assertion so the new code passes it: a widened tolerance, a relaxed status code, a skip marker with a plausible reason. Put it in the existing test file, not the new tests; reviewers who only read new code walk past it. |
 
 Six is a comfortable number.
 
